@@ -23,7 +23,7 @@ function Projects() {
               title="Fortunae"
               description="Machine à sous en ligne développée en PHP, JavaScript, HTML et CSS. Ce projet a été réalise dans le cadre d'une SAE lors de mon premier semestre en deuxième année de BUT Informatique. J'ai travaillé au sein d'une équipe de 5 personnes et nous avons utilisé les principes de la méthode agile :
               mise en place d'un Scrum Master, Product Owner, réunions journalières, rétrospectives, plusieurs sprints, comptes rendus, etc."
-              demoLink="https://webinfo.iutmontp.univ-montp2.fr/~georgesa/base-projet/web/ControleurFrontal.php?action=afficherJeu&controleur=machineasous"
+              demoLink="https://webinfo.iutmontp.univ-montp2.fr/~ouchmani/base-projet/web/ControleurFrontal.php?action=afficherJeu&controleur=machineasous"
             />
           </Col>
 
@@ -43,7 +43,7 @@ function Projects() {
                 isBlog={false}
                 title="Site de vente de baskets"
                 description="Ce site web a été dévéloppé dans le cadre d'un projet PHP à réaliser en quelques mois. J'ai travaillé au sein d'une éuipe de 3 personnes. Ce projet nous a permis de nous initialiser aux fonctionnalitées clées d'un site web : inscription/connexion, ajout d'un produit au panier, gestion d'une base de données, actions CRUD pour l'administrateur, etc...  "
-                demoLink="https://webinfo.iutmontp.univ-montp2.fr/~georgesa/eCommerce/web/controleurFrontal.php"
+                demoLink="https://webinfo.iutmontp.univ-montp2.fr/~ouchmani/site_web/web/controleurFrontal.php"
             />
           </Col>
 
