@@ -32,7 +32,7 @@ function Projects() {
                 imgPath={penguin}
                 isBlog={false}
                 title="The Penguin Ice Floe"
-                description="Site réalisé en équipe lors de la Nuit de L'Informatique en décembre 2023. Développé principalement en PHP, JavaScript (+ certains frameworks comme Bootsrtap), ce site met en avant les enjeux écologique quetraverse notre génération à travers des pages de sensibilisation, debunking, quizz (dont j'ai principalement travaillé), etc... Nous étions une équipe de 7 et ce projet nous a permis de nous pousser dans nos derniers retranchements (nuit blanche + 14h de travail intensif) afin d'élaborer la meilleure stratégie pour un rendu optimal dans les délais."
+                description="Site réalisé en équipe lors de la Nuit de L'Informatique en décembre 2023. Développé principalement en PHP, JavaScript (+ certains frameworks comme Bootsrtap), ce site met en avant les enjeux écologiques que traverse notre génération à travers des pages de sensibilisation, debunking, quizz (dont j'ai principalement travaillé), etc... Nous étions une équipe de 7 et ce projet nous a permis de nous pousser dans nos derniers retranchements (nuit blanche + 14h de travail intensif) afin d'élaborer la meilleure stratégie pour un rendu optimal dans les délais."
                 demoLink="https://inforlion.fr/projects/ThePenguinIceFloe/web/controleurFrontal.php"
             />
           </Col>
