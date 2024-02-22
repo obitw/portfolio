@@ -21,8 +21,7 @@ function Projects() {
               imgPath={fortunae}
               isBlog={false}
               title="Fortunae"
-              description="Machine à sous en ligne développée en PHP, JavaScript, HTML et CSS. Ce projet a été réalise dans le cadre d'une SAE lors de mon premier semestre en deuxième année de BUT Informatique. J'ai travaillé au sein d'une équipe de 5 personnes et nous avons utilisé les principes de la méthode agile :
-              mise en place d'un Scrum Master, Product Owner, réunions journalières, rétrospectives, plusieurs sprints, comptes rendus, etc."
+              description="La machine à sous en ligne, développée en PHP, JavaScript, HTML et CSS, représente l'un de mes projets marquants. Sa réalisation s'est inscrite dans le cadre d'une SAE durant mon premier semestre en deuxième année de BUT Informatique. Travaillant au sein d'une équipe de 5 personnes, nous avons mis en pratique les principes de la méthode agile. Cette approche a inclus la nomination d'un Scrum Master et d'un Product Owner, la tenue de réunions journalières, la réalisation de rétrospectives, l'adoption de plusieurs sprints, ainsi que la rédaction régulière de comptes rendus. Cette expérience a renforcé ma compréhension des méthodologies de développement et ma collaboration au sein d'une équipe agile."
               demoLink="https://webinfo.iutmontp.univ-montp2.fr/~ouchmani/base-projet/web/ControleurFrontal.php?action=afficherJeu&controleur=machineasous"
             />
           </Col>
@@ -32,7 +31,7 @@ function Projects() {
                 imgPath={penguin}
                 isBlog={false}
                 title="The Penguin Ice Floe"
-                description="Site réalisé en équipe lors de la Nuit de L'Informatique en décembre 2023. Développé principalement en PHP, JavaScript (+ certains frameworks comme Bootsrtap), ce site met en avant les enjeux écologiques que traverse notre génération à travers des pages de sensibilisation, debunking, quizz (dont j'ai principalement travaillé), etc... Nous étions une équipe de 7 et ce projet nous a permis de nous pousser dans nos derniers retranchements (nuit blanche + 14h de travail intensif) afin d'élaborer la meilleure stratégie pour un rendu optimal dans les délais."
+                description="Ce projet a été réalisé en équipe lors de la Nuit de l'Informatique en décembre 2023. Le site, développé principalement en PHP et JavaScript (avec l'utilisation de certains frameworks tels que Bootstrap), vise à mettre en lumière les enjeux écologiques auxquels notre génération est confrontée. Il propose des pages de sensibilisation, de debunking, ainsi qu'un quizz, sur lequel j'ai principalement contribué (utilisation d'une base de données MySql pour stocker les questions / réponses). Notre équipe, composée de 7 membres, a relevé le défi avec détermination, travaillant durant une nuit blanche et investissant 14 heures de travail intensif. Cette expérience nous a poussés à repousser nos limites pour élaborer la meilleure stratégie afin de livrer un projet optimal dans les délais impartis."
                 demoLink="https://inforlion.fr/projects/ThePenguinIceFloe/web/controleurFrontal.php"
             />
           </Col>
@@ -42,7 +41,7 @@ function Projects() {
                 imgPath={baskets}
                 isBlog={false}
                 title="Site de vente de baskets"
-                description="Ce site web a été dévéloppé dans le cadre d'un projet PHP à réaliser en quelques mois. J'ai travaillé au sein d'une éuipe de 3 personnes. Ce projet nous a permis de nous initialiser aux fonctionnalitées clées d'un site web : inscription/connexion, ajout d'un produit au panier, gestion d'une base de données, actions CRUD pour l'administrateur, etc...  "
+                description="Ce site web, développé dans le cadre d'un projet PHP sur plusieurs semaines, a constitué une expérience enrichissante. Collaborant au sein d'une équipe de trois personnes, nous avons exploré les fonctionnalités essentielles d'un site web. Ce projet nous a permis de nous initier à des aspects cruciaux tels que l'inscription/connexion des utilisateurs, l'ajout de produits au panier, la gestion d'une base de données, ainsi que la mise en œuvre d'opérations CRUD pour l'administrateur. Cette initiative a renforcé mes compétences dans le développement web et la collaboration en équipe."
                 demoLink="https://webinfo.iutmontp.univ-montp2.fr/~ouchmani/site_web/web/controleurFrontal.php"
             />
           </Col>
@@ -52,7 +51,7 @@ function Projects() {
                 imgPath={portfolio}
                 isBlog={false}
                 title="Ma première année de BUT Informatique"
-                description="Pour plus de détails sur mes compétences et projets de première anneé, je vous invite à consulter ce portfolio qui lui est beaucoup plus détaillé et complet."
+                description="Pour des informations plus détaillées sur mes compétences et mes projets de première année, je vous encourage à explorer ce portfolio, qui offre une vue plus approfondie et complète."
                 demoLink="https://webinfo.iutmontp.univ-montp2.fr/~ouchmani/portfolioA1.pdf"
             />
           </Col>
