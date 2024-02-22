@@ -1,75 +1,64 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { CgCPlusPlus } from "react-icons/cg";
 import {
-    DiJavascript1,
-    DiReact,
-    DiNodejs,
-    DiMongodb,
-    DiPython,
-    DiGit,
-    DiJava, DiHtml5, DiMaterializecss, DiCss3, DiPhp, DiMysql, DiLinux, DiTerminal, DiScrum,
+    DiJavascript1, DiMongodb, DiPython, DiGit, DiJava, DiHtml5, DiCss3, DiPhp, DiMysql, DiTerminal, DiScrum
 } from "react-icons/di";
 import {
-  SiRedis,
-  SiFirebase,
-  SiNextdotjs,
-  SiSolidity,
   SiPostgresql,
 } from "react-icons/si";
-import { TbBrandGolang } from "react-icons/tb";
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
 
-      <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 />
-      </Col>
-
-      <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
-      </Col>
-
-      <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
-      </Col>
-
-      <Col xs={4} md={2} className="tech-icons">
-        <SiPostgresql />
-      </Col>
-
-      <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
-      </Col>
-
-      <Col xs={4} md={2} className="tech-icons">
-        <DiJava />
-      </Col>
-
-        <Col xs={4} md={2} className="tech-icons">
-            <DiHtml5 />
+        <Col xs={4} md={2} className="tech-icons" title={"JavaScript"}>
+            <DiJavascript1 title={"JavaScript"} />
         </Col>
 
-        <Col xs={4} md={2} className="tech-icons">
-            <DiCss3 />
+        <Col xs={4} md={2} className="tech-icons" title={"MongoDB"}>
+            <DiMongodb title={"MongoDB"} />
         </Col>
 
-        <Col xs={4} md={2} className="tech-icons">
-            <DiPhp />
+        <Col xs={4} md={2} className="tech-icons" title={"Git"}>
+            <DiGit title={"Git"} />
         </Col>
 
-        <Col xs={4} md={2} className="tech-icons">
-            <DiMysql />
+        <Col xs={4} md={2} className="tech-icons" title={"PostgreSQL"}>
+            <SiPostgresql title={"PostgreSQL"} />
         </Col>
 
-        <Col xs={4} md={2} className="tech-icons">
-            <DiTerminal />
+        <Col xs={4} md={2} className="tech-icons" title={"Python"}>
+            <DiPython title={"Python"} />
         </Col>
 
-        <Col xs={4} md={2} className="tech-icons">
-            <DiScrum />
+        <Col xs={4} md={2} className="tech-icons" title={"Java"}>
+            <DiJava title={"Java"} />
         </Col>
+
+        <Col xs={4} md={2} className="tech-icons" title={"HTML"}>
+            <DiHtml5 title={"HTML"} />
+        </Col>
+
+        <Col xs={4} md={2} className="tech-icons" title={"CSS"}>
+            <DiCss3 title={"CSS"} />
+        </Col>
+
+        <Col xs={4} md={2} className="tech-icons" title={"PHP"}>
+            <DiPhp title={"PHP"} />
+        </Col>
+
+        <Col xs={4} md={2} className="tech-icons" title={"MySQL"}>
+            <DiMysql title={"MySQL"} />
+        </Col>
+
+        <Col xs={4} md={2} className="tech-icons" title={"Shell"}>
+            <DiTerminal title={"Shell"} />
+        </Col>
+
+        <Col xs={4} md={2} className="tech-icons" title={"Méthodes Agiles Scrum"}>
+            <DiScrum title={"Méthodes Agiles Scrum"} />
+        </Col>
+
 
 
     </Row>
