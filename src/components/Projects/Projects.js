@@ -6,6 +6,7 @@ import fortunae from "../../Assets/Projects/fortunae.png";
 import penguin from "../../Assets/Projects/penguin.png";
 import baskets from "../../Assets/Projects/baskets.png";
 import portfolio from "../../Assets/Projects/portfolio.png";
+import competences from "../../Assets/Projects/competences.png";
 
 function Projects() {
   return (
@@ -16,6 +17,17 @@ function Projects() {
           Mes <strong className="purple">projets </strong> récents
         </h1>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={competences}
+              isBlog={false}
+              title="Portfolio d'apprentissage"
+              description="Cette ressource présente mon parcours d'apprentissage en optimisation, administration et gestion de données à travers des projets significatifs. Vous y trouverez des exemples concrets pour chaque compétence et apprentissage critique du BUT Informatique. J'ai développé des compétences en modélisation de situations complexes, en sécurisation des systèmes d'information et en respect des réglementations sur la protection des données. En utilisant des approches innovantes, j'ai optimisé les performances des applications tout en minimisant leur impact environnemental. Vous pouvez explorer chaque compétence pour découvrir mes réalisations et compétences clés en détail. Ce portfolio a été réalisé dans le cadre d'un module"
+              demoLink="https://webinfo.iutmontp.univ-montp2.fr/~ouchmani/Jutification%20Comp%c3%a9tences.pdf"
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={fortunae}
