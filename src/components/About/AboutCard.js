@@ -8,7 +8,7 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Je suis actuellement en deuxième année de <span className="purple">BUT Informatique </span> à l'IUT de Montpellier, dans le parcours <span className="purple"> Intégration
+            Je suis actuellement en troisième année de <span className="purple">BUT Informatique </span> à l'IUT de Montpellier, dans le parcours <span className="purple"> Intégration
             d'Applications et Management des Systèmes d'Information</span> (IAMSI).
             <br />
             Mes objectifs à long terme sont de devenir <span className="purple">Ingenieur en infomatique et gestion</span> et ainsi pouvoir opter pour le poste de <span className="purple">Directeur de Systèmes d'Information</span> (DSI).

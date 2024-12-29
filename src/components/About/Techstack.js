@@ -1,10 +1,10 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import {
-    DiJavascript1, DiMongodb, DiPython, DiGit, DiJava, DiHtml5, DiCss3, DiPhp, DiMysql, DiTerminal, DiScrum
+    DiJavascript1, DiMongodb, DiPython, DiGit, DiJava, DiHtml5, DiCss3, DiPhp, DiMysql, DiTerminal, DiScrum, DiSymfony
 } from "react-icons/di";
 import {
-  SiPostgresql,
+    SiPostgresql, SiVuedotjs,
 } from "react-icons/si";
 
 function Techstack() {
@@ -59,7 +59,13 @@ function Techstack() {
             <DiScrum title={"Méthodes Agiles Scrum"} />
         </Col>
 
+        <Col xs={4} md={2} className="tech-icons" title={"Symfony"}>
+            <DiSymfony title={"Symfony"} />
+        </Col>
 
+        <Col xs={4} md={2} className="tech-icons" title={"Vue.js"}>
+            <SiVuedotjs title={"Vue.js"} />
+        </Col>
 
     </Row>
   );

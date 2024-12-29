@@ -1,7 +1,16 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import {
-    SiVisualstudiocode, SiIntellijidea, SiPhpstorm, SiXampp, SiLinux, SiWindows, SiWebstorm, SiGithub, SiGitlab,
+    SiVisualstudiocode,
+    SiIntellijidea,
+    SiPhpstorm,
+    SiXampp,
+    SiLinux,
+    SiWindows,
+    SiWebstorm,
+    SiGithub,
+    SiGitlab,
+    SiDocker,
 } from "react-icons/si";
 
 function Toolstack() {
@@ -43,6 +52,11 @@ function Toolstack() {
         <Col xs={4} md={2} className="tech-icons" title={"PhpStorm"}>
             <SiPhpstorm title={"PhpStorm"}/>
         </Col>
+
+        <Col xs={4} md={2} className="tech-icons" title={"Docker"}>
+            <SiDocker title={"Docker"}/>
+        </Col>
+
 
     </Row>
   );
