@@ -2,88 +2,124 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import fortunae from "../../Assets/Projects/fortunae.png";
-import penguin from "../../Assets/Projects/penguin.png";
+import fortunae from "../../Assets/Projects/fortunae/fortunae.png";
+import penguin from "../../Assets/Projects/penguin/penguin.png";
 import baskets from "../../Assets/Projects/baskets.png";
 import pdf from "../../Assets/competences.pdf";
 import competences from "../../Assets/Projects/competences.png";
-import docteur from "../../Assets/Projects/docteur.png"
-import hmdb from "../../Assets/Projects/hmdb.png"
+import docteur from "../../Assets/Projects/voyage/voyage.png";
+import hmdb from "../../Assets/Projects/hmdb/hmdb.png";
+import prestashop from "../../Assets/Projects/prestashop/prestashop.png";
 
 function Projects() {
   return (
-    <Container fluid className="project-section">
-      <Particle />
-      <Container>
-        <h1 className="project-heading">
-          Mes <strong className="purple">projets </strong> récents
-        </h1>
-        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+      <Container fluid className="project-section">
+        <Particle />
+        <Container>
+          <h1 className="project-heading">
+            Mes <strong className="purple">projets</strong> récents
+          </h1>
+          <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-                imgPath={hmdb}
-                isBlog={false}
-                title="Human Myeloma DataBase"
-                description="Ce stage de 12 semaines, réalisé à l'Institut de Génétique Humaine (IGH) dans le cadre de ma deuxième année de BUT informatique, avait pour objectif de déboguer et améliorer un outil de gestion interne destiné au suivi des patients atteints de Myélome Multiple. Développée en PHP avec Symfony et MySQL, l'application gère des données sensibles et facilite la recherche scientifique. Mon rôle a consisté à reprendre le code existant, corriger des erreurs, et apporter des améliorations significatives, notamment en renforçant la sécurité et en intégrant de nouvelles fonctionnalités adaptées aux besoins des chercheurs. Cette expérience m'a permis de consolider mes compétences techniques, d'appliquer des bonnes pratiques en génie logiciel, et de collaborer efficacement avec une équipe pluridisciplinaire."
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={fortunae}
-              isBlog={false}
-              title="Fortunae"
-              description="La machine à sous en ligne, développée en PHP, JavaScript, HTML et CSS, représente l'un de mes projets marquants. Sa réalisation s'est inscrite dans le cadre d'une SAE durant mon premier semestre en deuxième année de BUT Informatique. Travaillant au sein d'une équipe de 5 personnes, nous avons mis en pratique les principes de la méthode agile. Cette approche a inclus la nomination d'un Scrum Master et d'un Product Owner, la tenue de réunions journalières, la réalisation de rétrospectives, l'adoption de plusieurs sprints, ainsi que la rédaction régulière de comptes rendus. Cette expérience a renforcé ma compréhension des méthodologies de développement et ma collaboration au sein d'une équipe agile."
-              /*demoLink="https://webinfo.iutmontp.univ-montp2.fr/~ouchmani/base-projet/web/ControleurFrontal.php?action=afficherJeu&controleur=machineasous"*/
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-                imgPath={docteur}
-                isBlog={false}
-                title="Voyage Intérieur"
-                description="Ce projet a été réalisé en équipe lors de la Nuit de l'Info en décembre 2024. Développé principalement en React et TypeScript, le site offre une expérience immersive et éducative. En mettant en lumière les similitudes entre le corps humain et l'océan, il sensibilise aux enjeux environnementaux tout en favorisant l'introspection. Les fonctionnalités incluent des jeux interactifs et des pages de sensibilisation. Un des défis majeurs a été de m'adapter à une toute nouvelle équipe, ayant délibérément choisi de ne pas collaborer avec les mêmes membres que l'année précédente, ce qui a enrichi l'expérience et renforcé mes compétences en travail d'équipe."
-                demoLink="https://select-from-talents.github.io/DocteurOcean/"
-            />
-          </Col>
+            <Col md={6} className="project-card">
+              <ProjectCard
+                  imgPath={prestashop}
+                  isBlog={false}
+                  isInfo={true}
+                  title="Prestashop"
+                  description="Ce site e-commerce, spécialisé dans la vente de matériel de plongée, a été réalisé dans le cadre de la SAE du semestre 5 de mon BUT Informatique. En collaboration avec mon équipe, nous avons travaillé avec un client réel, organisant régulièrement des réunions pour recueillir ses retours et ajuster le projet en conséquence. Ce projet a permis d'appliquer des méthodologies de gestion de projet et de renforcer mes compétences en développement web."
+                  demoLink="http://www.magsdiver.fr/prestashop/"
+                  infoLink="/project/prestashop"
+                  technologies={["PHP", "JavaScript", "MySQL", "PrestaShop", "Excel"]}
+                  softSkills={["Travail d'équipe", "Gestion de projet", "Etude du marché"]}
+              />
+            </Col>
 
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-                imgPath={penguin}
-                isBlog={false}
-                title="The Penguin Ice Floe"
-                description="Ce projet a été réalisé en équipe lors de la Nuit de l'Informatique en décembre 2023. Le site, développé principalement en PHP et JavaScript (avec l'utilisation de certains frameworks tels que Bootstrap), vise à mettre en lumière les enjeux écologiques auxquels notre génération est confrontée. Il propose des pages de sensibilisation, de debunking, ainsi qu'un quizz, sur lequel j'ai principalement contribué (utilisation d'une base de données MySql pour stocker les questions / réponses). Notre équipe, composée de 7 membres, a relevé le défi avec détermination, travaillant durant une nuit blanche et investissant 14 heures de travail intensif. Cette expérience nous a poussés à repousser nos limites pour élaborer la meilleure stratégie afin de livrer un projet optimal dans les délais impartis."
-                /*demoLink="https://inforlion.fr/projects/ThePenguinIceFloe/web/controleurFrontal.php"*/
-            />
-          </Col>
+            {/* Projet HMDB */}
+            <Col md={6} className="project-card mb-4">
+              <ProjectCard
+                  imgPath={hmdb}
+                  isBlog={false}
+                  isInfo={true}
+                  title="Human Myeloma DataBase"
+                  description="Ce stage de 12 semaines à l'Institut de Génétique Humaine (IGH) avait pour objectif d'améliorer un outil de gestion interne pour le suivi des patients atteints de myélome multiple. J'ai travaillé sur la migration vers PHP 8, corrigé des erreurs, et renforcé la sécurité de l'application, tout en développant de nouvelles fonctionnalités."
+                  infoLink="/project/hmdb"
+                  technologies={["PHP 8", "MySQL", "Javascript", "Docker", "Symfony"]}
+                  softSkills={["Autonomie", "Analyse", "Gestion du temps + besoins"]}
+              />
+            </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-                imgPath={baskets}
-                isBlog={false}
-                title="Site de vente de baskets"
-                description="Ce site web, développé dans le cadre d'un projet PHP sur plusieurs semaines, a constitué une expérience enrichissante. Collaborant au sein d'une équipe de trois personnes, nous avons exploré les fonctionnalités essentielles d'un site web. Ce projet nous a permis de nous initier à des aspects cruciaux tels que l'inscription/connexion des utilisateurs, l'ajout de produits au panier, la gestion d'une base de données, ainsi que la mise en œuvre d'opérations CRUD pour l'administrateur. Cette initiative a renforcé mes compétences dans le développement web et la collaboration en équipe."
-                /*demoLink="https://webinfo.iutmontp.univ-montp2.fr/~ouchmani/site_web/web/controleurFrontal.php"*/
-            />
-          </Col>
+            {/* Projet Voyage Intérieur */}
+            <Col md={6} className="project-card mb-4">
+              <ProjectCard
+                  imgPath={docteur}
+                  isBlog={false}
+                  isInfo={true}
+                  title="Voyage Intérieur"
+                  description="Réalisé lors de la Nuit de l'Info 2024, ce projet en React et TypeScript explore les parallèles entre le corps humain et l'océan. Il inclut des jeux interactifs et des pages éducatives pour sensibiliser aux enjeux environnementaux. Cette expérience a renforcé mes compétences en travail d'équipe et en développement front-end."
+                  infoLink="/project/voyage"
+                  demoLink="https://select-from-talents.github.io/DocteurOcean/"
+                  technologies={["React", "TypeScript", "CSS", "HTML"]}
+                  softSkills={["Travail d'équipe", "Créativité", "Sensibilisation"]}
+              />
+            </Col>
 
+            {/* Projet Fortunae */}
+            <Col md={6} className="project-card mb-4">
+              <ProjectCard
+                  imgPath={fortunae}
+                  isBlog={false}
+                  isInfo={true}
+                  title="Fortunae"
+                  infoLink="/project/fortunae"
+                  description="Une machine à sous en ligne développée en PHP et JavaScript dans le cadre d'une SAE. Ce projet, réalisé en équipe, a permis de mettre en pratique la méthode agile avec la planification de sprints, la tenue de réunions journalières, et l'adoption de bonnes pratiques de développement."
+                  technologies={["PHP", "JavaScript", "MySql"]}
+                  softSkills={["Travail d'équipe", "Adaptabilité", "Gestion de projet"]}
+              />
+            </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-                imgPath={competences}
-                isBlog={false}
-                title="Portfolio d'apprentissage"
-                description="Cette ressource présente mon parcours d'apprentissage en optimisation, administration et gestion de données à travers des projets significatifs. Vous y trouverez des exemples concrets pour chaque compétence et apprentissage critique du BUT Informatique. J'ai développé des compétences en modélisation de situations complexes, en sécurisation des systèmes d'information et en respect des réglementations sur la protection des données. En utilisant des approches innovantes, j'ai optimisé les performances des applications tout en minimisant leur impact environnemental. Vous pouvez explorer chaque compétence pour découvrir mes réalisations et compétences clés en détail. Ce portfolio a été réalisé dans le cadre d'un module"
-                demoLink={pdf}
-            />
-          </Col>
+            {/* Projet Penguin Ice Floe */}
+            <Col md={6} className="project-card mb-4">
+              <ProjectCard
+                  imgPath={penguin}
+                  isBlog={false}
+                  isInfo={true}
+                  title="The Penguin Ice Floe"
+                  infoLink="/project/penguin"
+                  description="Réalisé lors de la Nuit de l'Informatique 2023, ce projet sensibilise aux enjeux écologiques à travers des pages éducatives et des quizz interactifs. J'ai principalement contribué à l'intégration d'une base de données MySQL pour gérer les questions et réponses du quizz."
+                  technologies={["MySQL", "PHP", "BootStrap"]}
+                  softSkills={["Collaboration", "Sensibilisation", "Rédaction"]}
+              />
+            </Col>
 
-        </Row>
+            {/* Projet Site de vente de baskets */}
+            <Col md={6} className="project-card mb-4">
+              <ProjectCard
+                  imgPath={baskets}
+                  isBlog={false}
+                  title="Site de vente de baskets"
+                  description="Un site web développé en PHP pour la gestion d'un e-commerce, incluant des fonctionnalités comme l'inscription des utilisateurs, l'ajout au panier, et une interface d'administration pour la gestion des produits."
+                  technologies={["PHP", "MySQL", "BootStrap", "Modèle MVC"]}
+                  softSkills={["Organisation", "Travail d'équipe"]}
+              />
+            </Col>
+
+            {/* Projet Portfolio d'apprentissage
+            <Col md={6} className="project-card mb-4">
+              <ProjectCard
+                  imgPath={competences}
+                  isBlog={false}
+                  title="Portfolio d'apprentissage"
+                  description="Un portfolio détaillant mon parcours d'apprentissage à travers des projets significatifs, incluant des compétences en modélisation, sécurisation des systèmes d'information, et optimisation des performances."
+                  demoLink={pdf}
+              />
+            </Col>
+            */}
+
+          </Row>
+        </Container>
       </Container>
-    </Container>
   );
 }
 

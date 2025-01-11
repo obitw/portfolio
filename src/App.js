@@ -16,6 +16,11 @@ import ScrollToTop from "./components/ScrollToTop";
 import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import PrestashopProject from "./components/Projects/PrestashopProject";
+import HmdbProject from "./components/Projects/HmdbProject";
+import VoyageInterieurProject from "./components/Projects/VoyageInterieurProject";
+import FortunaeProject from "./components/Projects/FortnaeProject";
+import PenguinIceFloeProject from "./components/Projects/PenguinIceFloeProject";
 
 function App() {
   const [load, upadateLoad] = useState(true);
@@ -37,9 +42,14 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/project" element={<Projects />} />
+          <Route path="/project/prestashop" element={<PrestashopProject />} />
+          <Route path="/project/hmdb" element={<HmdbProject />} />
+          <Route path="/project/voyage" element={<VoyageInterieurProject />} />
+          <Route path="/project/fortunae" element={<FortunaeProject />} />
+          <Route path="/project/penguin" element={<PenguinIceFloeProject />} />
           <Route path="/about" element={<About />} />
           <Route path="/resume" element={<Resume />} />
-          <Route path="*" element={<Navigate to="/"/>} />
+          <Route path="*" element={<Navigate to="/" />} />
         </Routes>
         <Footer />
       </div>

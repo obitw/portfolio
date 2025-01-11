@@ -248,6 +248,7 @@ button:focus {
   background-size: cover !important;
   width: 100%;
   height: 100%;
+  pointer-events: none; /* Les particules n'interfèrent pas avec les clics */
 }
 
 .home-header {
@@ -740,4 +741,134 @@ button:focus {
 }
 .fork-btn-inner::after {
   display: none !important;
+}
+
+/* ---- Global Styles ---- */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #121212;
+  color: #fff;
+}
+
+.project-details-section {
+  padding: 50px 15px;
+}
+
+h1.project-title {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: rgb(215, 134, 255);
+  margin-bottom: 30px;
+}
+
+p.project-intro {
+  text-align: center;
+  font-size: 1.2rem;
+  margin-bottom: 40px;
+  color: #fff;
+}
+
+/* ---- Content Section ---- */
+.project-content {
+  margin-bottom: 40px;
+  align-items: center;
+}
+
+.project-content h2 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #40c1cf;
+}
+
+.project-content p {
+  line-height: 1.6;
+  font-size: 1rem;
+  color: #fff;
+}
+
+.project-image {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+/* ---- Details Section ---- */
+.project-details h2 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #40c1cf;
+  margin-bottom: 20px;
+}
+
+.project-details p {
+  padding-left: 20px;
+  list-style-type: disc;
+  color: #ffffff;
+}
+
+.project-details ul li {
+  margin-bottom: 10px;
+  line-height: 1.6;
+  font-size: 1rem;
+  color: #fff;
+}
+
+/* ---- Conclusion Section ---- */
+.project-conclusion h2 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #40c1cf;
+  margin-bottom: 20px;
+}
+
+.project-conclusion p {
+  line-height: 1.6;
+  font-size: 1rem;
+  color: #fff;
+}
+
+/* ---- Links Section ---- */
+.project-links a.project-link {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  color: #fff;
+  background-color: #9b59b6;
+  border-radius: 25px;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.project-links a.project-link:hover {
+  background-color: #8e44ad;
+  box-shadow: 0 4px 15px rgba(155, 89, 182, 0.5);
+}
+
+/* ---- Responsive Styles ---- */
+@media (max-width: 768px) {
+  .project-content {
+    flex-direction: column;
+  }
+
+  h1.project-title {
+    font-size: 2rem;
+  }
+
+  p.project-intro {
+    font-size: 1rem;
+  }
+
+  .project-details h2,
+  .project-conclusion h2 {
+    font-size: 1.5rem;
+  }
+
+  .project-links a.project-link {
+    font-size: 1rem;
+  }
 }
