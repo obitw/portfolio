@@ -1,6 +1,7 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
+import { Link } from "react-router-dom"; // Import du composant Link
 
 function ProjectCards(props) {
     const renderTags = (tags, variant) => {
@@ -46,9 +47,9 @@ function ProjectCards(props) {
                     </Button>
                 )}
                 {props.isInfo && (
-                    <Button variant="secondary" href={props.infoLink}>
+                    <Link to={props.infoLink} className="btn btn-secondary">
                         En savoir plus
-                    </Button>
+                    </Link>
                 )}
             </Card.Body>
         </Card>
