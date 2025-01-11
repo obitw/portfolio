@@ -23,9 +23,6 @@ function AboutCard() {
             <li className="about-activity">
               <ImPointRight /> Les jeux vidéos
             </li>
-            <li className="about-activity">
-              <ImPointRight /> L'autodidactisme
-            </li>
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
