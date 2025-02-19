@@ -19,7 +19,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import PrestashopProject from "./components/Projects/PrestashopProject";
 import HmdbProject from "./components/Projects/HmdbProject";
 import VoyageInterieurProject from "./components/Projects/VoyageInterieurProject";
-import FortunaeProject from "./components/Projects/FortnaeProject";
+import FortunaeProject from "./components/Projects/FortunaeProject";
 import PenguinIceFloeProject from "./components/Projects/PenguinIceFloeProject";
 
 function App() {

@@ -10,7 +10,7 @@ function PrestashopProject() {
         <Container fluid className="project-details-section">
             <Particle />
             <Container>
-                <h1 className="project-title">Prestashop</h1>
+                <h1 className="project-title">Mag's Divers</h1>
 
                 {/* Contexte du projet */}
                 <Row className="project-content align-items-center">

@@ -26,9 +26,9 @@ function Projects() {
                   imgPath={prestashop}
                   isBlog={false}
                   isInfo={true}
-                  title="Prestashop"
+                  title="Mag's Divers"
                   description="Ce site e-commerce, spécialisé dans la vente de matériel de plongée, a été réalisé dans le cadre de la SAE du semestre 5 de mon BUT Informatique. En collaboration avec mon équipe, nous avons travaillé avec un client réel, organisant régulièrement des réunions pour recueillir ses retours et ajuster le projet en conséquence. Ce projet a permis d'appliquer des méthodologies de gestion de projet et de renforcer mes compétences en développement web."
-                  demoLink="http://www.magsdiver.fr/prestashop/"
+                  demoLink="http://www.magsdiver.fr/"
                   infoLink="/project/prestashop"
                   technologies={["PHP", "JavaScript", "MySQL", "PrestaShop", "Excel"]}
                   softSkills={["Travail d'équipe", "Gestion de projet", "Etude du marché"]}
