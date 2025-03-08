@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.8376119b.css",
+    "main.js": "/portfolio/static/js/main.1216af95.js",
+    "static/js/415.4d6acbeb.chunk.js": "/portfolio/static/js/415.4d6acbeb.chunk.js",
+    "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/rapport.pdf": "/portfolio/static/media/rapport.ce438da36d93a3edf941.pdf",
+    "static/media/competences.pdf": "/portfolio/static/media/competences.1b8cc4c55fcd5d5bc714.pdf",
+    "static/media/fortunae.png": "/portfolio/static/media/fortunae.1a34142c82fbd3a41330.png",
+    "static/media/fortunae2.png": "/portfolio/static/media/fortunae2.076c5d0bf46887cd0820.png",
+    "static/media/prestashop.png": "/portfolio/static/media/prestashop.4ad0b6b4ba9f4f454b13.png",
+    "static/media/penguin3.png": "/portfolio/static/media/penguin3.17ac3bdcd770bc58f5af.png",
+    "static/media/penguin2.png": "/portfolio/static/media/penguin2.d0fe281e3e7767467afe.png",
+    "static/media/penguin.png": "/portfolio/static/media/penguin.e048e5b8155db9436899.png",
+    "static/media/voyage.png": "/portfolio/static/media/voyage.73eadd0ff4016da0eb16.png",
+    "static/media/baskets.png": "/portfolio/static/media/baskets.20d24ec504bc8a422d4a.png",
+    "static/media/prestashop3.png": "/portfolio/static/media/prestashop3.9e0ff40984458b754121.png",
+    "static/media/prestashop2.png": "/portfolio/static/media/prestashop2.c15692412c35c354f155.png",
+    "static/media/voyage1.png": "/portfolio/static/media/voyage1.645e2fdc686c06da1e6a.png",
+    "static/media/hmdb2.png": "/portfolio/static/media/hmdb2.9cd0a20469371c76710f.png",
+    "static/media/voyage2.png": "/portfolio/static/media/voyage2.611cfebff08ba9e1a925.png",
+    "static/media/hmdb.png": "/portfolio/static/media/hmdb.f4c9ddb75d805bd4e251.png",
+    "static/media/CV.pdf": "/portfolio/static/media/CV.325c5416c4367f364554.pdf",
+    "static/media/home-main.svg": "/portfolio/static/media/home-main.359935c39288e92d4dba5c9f2445b91d.svg",
+    "static/media/about.png": "/portfolio/static/media/about.aee0f771fbfc1e7b8fa8.png",
+    "static/media/hmdb3.png": "/portfolio/static/media/hmdb3.f7dafba2b52bee3c01e7.png",
+    "static/media/competences.png": "/portfolio/static/media/competences.4506490b111ffbb0cb92.png",
+    "static/media/voyage3.png": "/portfolio/static/media/voyage3.a016676fea069b9666ca.png",
+    "static/media/fortunae3.png": "/portfolio/static/media/fortunae3.d8ead3b95043201d4826.png",
+    "static/media/home-bg.jpg": "/portfolio/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
+    "static/media/avatar.svg": "/portfolio/static/media/avatar.7f806e40d46fc76fbc3c4a3d71349951.svg",
+    "static/media/pre.svg": "/portfolio/static/media/pre.4410c5baaa673cc131da.svg",
+    "index.html": "/portfolio/index.html",
+    "main.8376119b.css.map": "/portfolio/static/css/main.8376119b.css.map",
+    "main.1216af95.js.map": "/portfolio/static/js/main.1216af95.js.map",
+    "415.4d6acbeb.chunk.js.map": "/portfolio/static/js/415.4d6acbeb.chunk.js.map",
+    "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8376119b.css",
+    "static/js/main.1216af95.js"
+  ]
+}
