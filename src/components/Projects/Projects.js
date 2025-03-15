@@ -6,7 +6,9 @@ import fortunae from "../../Assets/Projects/fortunae/fortunae.png";
 import penguin from "../../Assets/Projects/penguin/penguin.png";
 import baskets from "../../Assets/Projects/baskets.png";
 import pdf from "../../Assets/competences.pdf";
+import pdf2 from "../../Assets/competences2.pdf";
 import competences from "../../Assets/Projects/competences.png";
+import competences2 from "../../Assets/Projects/competences2.png";
 import docteur from "../../Assets/Projects/voyage/voyage.png";
 import hmdb from "../../Assets/Projects/hmdb/hmdb.png";
 import prestashop from "../../Assets/Projects/prestashop/prestashop.png";
@@ -110,12 +112,25 @@ function Projects() {
               <ProjectCard
                   imgPath={competences}
                   isBlog={false}
-                  title="Portfolio d'apprentissage"
+                  title="Portfolio d'apprentissage BUT2"
                   description="Un portfolio détaillant mon parcours d'apprentissage à travers des projets significatifs, incluant des compétences en modélisation, sécurisation des systèmes d'information, et optimisation des performances."
                   demoLink={pdf}
               />
             </Col>
             */}
+
+            {/* Projet Portfolio d'apprentissage*/}
+            <Col md={6} className="project-card mb-4">
+              <ProjectCard
+                  imgPath={competences2}
+                  isBlog={false}
+                  title="Portfolio d'apprentissage BUT3"
+                  description="Un portfolio détaillant mon parcours d'apprentissage à travers des projets significatifs, incluant les compétences Réaliser, Conduire et Collaborer."
+                  demoLink={pdf2}
+                  technologies={["Vue.js", "JavaScript", "API"]}
+                  softSkills={["Réaliser", "Conduire", "Collaborer"]}
+              />
+            </Col>
 
           </Row>
         </Container>
