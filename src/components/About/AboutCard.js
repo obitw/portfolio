@@ -8,10 +8,9 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Je suis actuellement en troisième année de <span className="purple">BUT Informatique </span> à l'IUT de Montpellier, dans le parcours <span className="purple"> Intégration
-            d'Applications et Management des Systèmes d'Information</span> (IAMSI).
+            Je suis actuellement en première année de cycle ingénieur à <span className="purple">Polytech Montpellier </span>, en alternace chez <span className="purple">Orange </span>.
             <br />
-            Mes objectifs à long terme sont de devenir <span className="purple">Ingenieur en infomatique et gestion</span> et ainsi pouvoir opter pour le poste de <span className="purple">Directeur de Systèmes d'Information</span> (DSI).
+            Mes objectifs à long terme sont de devenir <span className="purple">Ingénieur en infomatique</span> et ainsi pouvoir opter pour le poste de <span className="purple">Directeur de Systèmes d'Information</span> (DSI).
             <br />
             <br />
             En dehors de l'informatique, j'ai aussi d'autres passions comme :
